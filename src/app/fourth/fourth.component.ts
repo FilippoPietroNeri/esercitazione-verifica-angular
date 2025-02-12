@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-fourth',
   imports: [],
   templateUrl: './fourth.component.html',
-  styleUrl: './fourth.component.css'
+  styleUrl: './fourth.component.css',
+  standalone: true,
 })
 export class FourthComponent {
 

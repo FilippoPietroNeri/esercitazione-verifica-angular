@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-second',
   imports: [],
   templateUrl: './second.component.html',
-  styleUrl: './second.component.css'
+  styleUrl: './second.component.css',
+  standalone: true,
 })
 export class SecondComponent {
-
+  name = 'Second';
 }
